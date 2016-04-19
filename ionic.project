@@ -1,0 +1,19 @@
+{
+	"name": "tcr-app",
+	"app_id": "",
+	"gulpStartupTasks": [
+		"watch"
+	],
+	"watchPatterns": [
+		"www/**/*",
+		"www/css/**/*",
+		"!www/bower_components/**/*"
+	],
+	"documentRoot": "www",
+	"proxies": [
+		{
+			"path": "/dev_server",
+			"proxyUrl": "http://192.168.0.151:90"
+		}
+	]
+}
